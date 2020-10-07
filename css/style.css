@@ -5,7 +5,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #f7e7e4;
+    background-image: url('../img/regsitro/lado.png');
+    background-size: auto;
 }
 .contregistro{
     height: 75%;
