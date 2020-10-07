@@ -4,10 +4,14 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    background-color: #f7e7e4;
+}
 .contregistro{
     height: 75%;
     width: 60%;
     position: absolute;
+    background-color: white;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -32,6 +36,7 @@
     height: 100%;
     border-radius: 0px 10px 10px 0px;
 }
+
 .usuario-form h1{
     color: black;
     margin-bottom: 15px;
@@ -92,4 +97,28 @@ input{
     font-size: 16px;
     box-shadow: 1px 2px 5px #999;
     outline: none;
+}
+#usuario{
+    background-image: url('../img/regsitro/usuario.png');
+    background-position: 9px;
+    background-size: 13px;
+    background-repeat: no-repeat;   
+}
+#tel{
+    background-image: url('../img/regsitro/telefono.png');
+    background-position: 9px;
+    background-size: 13px;
+    background-repeat: no-repeat;   
+}
+#correo{
+    background-image: url('../img/regsitro/correo.png');
+    background-position: 9px;
+    background-size: 13px;
+    background-repeat: no-repeat;   
+}
+#contra{
+    background-image: url('../img/regsitro/contra.png');
+    background-position: 9px;
+    background-size: 13px;
+    background-repeat: no-repeat;   
 }
