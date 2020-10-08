@@ -4,9 +4,9 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-image: url('../img/regsitro/lado.png');
-    background-size: auto;
+.body-reg{
+    background-image: url('../img/registro/reg.jpg');
+    background-size: 100%;
 }
 .contregistro{
     height: 75%;
@@ -49,6 +49,7 @@ body{
     color: black;
     padding: 7px 0;
     font-size: 15px;
+    font-weight: bold;
     font-family: 'Roboto', sans-serif;
 }
 .usuario-form i{
@@ -100,25 +101,122 @@ input{
     outline: none;
 }
 #usuario{
-    background-image: url('../img/regsitro/usuario.png');
+    background-image: url('../img/registro/usuario.png');
     background-position: 9px;
     background-size: 13px;
     background-repeat: no-repeat;   
 }
 #tel{
-    background-image: url('../img/regsitro/telefono.png');
+    background-image: url('../img/registro/telefono.png');
     background-position: 9px;
     background-size: 13px;
     background-repeat: no-repeat;   
 }
 #correo{
-    background-image: url('../img/regsitro/correo.png');
+    background-image: url('../img/registro/correo.png');
     background-position: 9px;
     background-size: 13px;
     background-repeat: no-repeat;   
 }
 #contra{
-    background-image: url('../img/regsitro/contra.png');
+    background-image: url('../img/registro/contra.png');
+    background-position: 9px;
+    background-size: 13px;
+    background-repeat: no-repeat;   
+}
+
+/*Apartado de login del sitio web*/
+.body-log{
+    background-image: url('../img/login/login.jpg');
+    background-size: 100%;
+}
+.contlogin{
+    height: 75%;
+    width: 60%;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+.foto-log{
+    width: 50%;
+    height: 100%;
+}
+.foto-log img{
+    width: 100%;
+    height: 100%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+.usuario-form-log{
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.usuario-form-log h1{
+    color: black;
+    margin-bottom: 40px;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+.usuario-form-log p{
+    color: black;
+    padding: 7px 0;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.usuario-form-log i{
+    position: absolute;
+    padding: 20px 10px;
+}
+.usuario-form-log input{
+    margin-bottom: 20px;
+}
+.usuario-form-log h6{
+    font-size: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+.usuario-form-log h6 a{
+    color: #ff896cf6;
+}
+.accion_btn_log{
+    width: 100%;
+    display: flex;
+    margin: 30px 0;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.btn_login-log{
+    border: none;
+    background: #ff896cf6;
+    color: #444444;
+    padding: 5px;
+    border-radius: 20px;
+    width: 40%;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 1px 2px 5px #999;
+    outline: none;
+}
+
+#correo-log{
+    background-image: url('../img/registro/correo.png');
+    background-position: 9px;
+    background-size: 13px;
+    background-repeat: no-repeat;   
+}
+#contra-log{
+    background-image: url('../img/registro/contra.png');
     background-position: 9px;
     background-size: 13px;
     background-repeat: no-repeat;   
