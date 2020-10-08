@@ -72,26 +72,11 @@ input{
     margin: 30px 0;
     margin-top: 30px;
 }
-.btn_login{
-    border: none;
-    background: #ff896c80;
-    color: #444444;
-    padding: 5px;
-    margin: 0 18px;
-    border-radius: 20px;
-    width: 40%;
-    height: 30px;
-    cursor: pointer;
-    font-size: 16px;
-    box-shadow: 1px 2px 5px #999;
-    outline: none;
-}
 .btn_crear{
     border: none;
     background: #ff896cf6;
     color: #444444;
     padding: 5px;
-    margin: 0 10px;
     border-radius: 20px;
     width: 40%;
     height: 30px;
