@@ -215,3 +215,63 @@ input{
 }
 
 /*Apartado de acerca de nosotros del sitio web*/
+.body-about{
+    background-image: url('../img/about/fondo.png');
+}
+.portada{
+    background: url('../img/about/fondoabout.png');
+    height: 280px;
+}
+.titulo{
+    color: white;
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 100px 0;
+    text-shadow: 0.1em 0.1em 0.05em black
+}
+.cont-info{
+    margin-top: 230px;
+    height: 67%;
+    width: 55%;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.foto-about{
+    width: 50%;
+    height: 100%;
+}
+.foto-about img{
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.form-about{
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+.form-about p{
+    color: black;
+    padding: 0px 0;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+.form-about h1{
+    color: black;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
