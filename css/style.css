@@ -327,7 +327,7 @@ input{
     font-size: 25px;
 }
 .title{
-    color: gray;
+    color: rgb(83, 83, 83);
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
@@ -335,8 +335,11 @@ input{
 .subtitle{
     color: gray;
     font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    margin-bottom: 10px;
+    text-align: justify;
+    font-size: 13px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 .imagen-perfil{
     margin-top: 20px;
