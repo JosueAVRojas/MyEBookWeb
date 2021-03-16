@@ -1,4 +1,7 @@
 
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /*Apartado del registro del sitio web*/
 *{
     margin: 0;
@@ -214,32 +217,27 @@ input{
     background-size: 13px;
     background-repeat: no-repeat;   
 }
-
 /*Apartado de acerca de nosotros del sitio web*/
-.body-about{
-    background-image: url('../img/about/fondo.png');
-    height: 100%;
-    width: 100%;
-}
-.portada{
+
+.container-img{
     background: url('../img/about/fondoabout.png');
-    height: 280px;
+    height: 220px;
 }
 .titulo{
     color: white;
-    font-size: 40px;
+    font-size: 80px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
-    padding: 100px 0;
+    justify-content: center;
+    padding: 50px;
     text-shadow: 0.1em 0.1em 0.05em black
 }
 .cont-info{
-    margin-top: 230px;
-    height: 67%;
-    width: 55%;
+    height: 28%;
+    width: 60%;
     position: absolute;
     background-color: white;
-    top: 50%;
+    top: 33%;
     left: 50%;
     transform: translate(-50%,-50%);
     box-shadow: 5px 5px 15px rgba(0,0,0,0.4);
@@ -247,12 +245,18 @@ input{
     justify-content: space-between;
     border-radius: 15px;
 }
-
 .foto-about{
     width: 50%;
     height: 100%;
 }
-.foto-about img{
+.cont-info img{
+    background: url("../img/about/fondo2.png");
+    width: 100%;
+    height: 100%;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+.cont-info img{
     width: 100%;
     height: 100%;
     border-bottom-left-radius: 15px;
@@ -264,23 +268,28 @@ input{
     height: 100%;
     border-radius: 0px 10px 10px 0px;
 }
+.form-about{
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
+.form-about{
+    padding: 50px;
+    width: 50%;
+    height: 100%;
+    border-radius: 0px 10px 10px 0px;
+}
 .form-about p{
     color: black;
     padding: 0px 0;
-    font-size: 15px;
+    font-size: 17 px;
     font-family: 'Roboto', sans-serif;
     text-align: justify;
 }
-.form-about h1{
-    color: black;
-    margin-bottom: 20px;
-    font-size: 30px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
 
 .info-team h1{
-    margin-top: 580px;
+    margin-top: 650px;
     text-align: center;
     margin-bottom: 40px;
     font-family: 'Roboto', sans-serif;
@@ -350,4 +359,229 @@ input{
 .iconos{
     height: 25px;
     margin-right: 10px;
+}
+
+
+/*Product detail*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+section{
+  padding: 40px;
+}
+.read{
+  color: #0b67df;
+  font-weight: 700;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+ 
+
+}
+
+.description{
+  text-align: justify;
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+ 
+  
+}
+.detail_product{
+  color: #FF7300;
+}
+.product-detail .details {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7rem;
+  }
+  
+  .product-detail .left {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-detail .left .main {
+    text-align: center;
+  
+    
+  }
+  
+  .product-detail .left .main img {
+    object-fit: contain;
+    height: 100%;
+    width: 300px;
+  }
+  
+  .product-detail .thumbnails {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+  
+  .product-detail .thumbnail {
+    width: 10rem;
+    height: 10rem;
+    background-color: #f6f2f1;
+    text-align: center;
+  }
+  
+  .product-detail .thumbnail img {
+    height: 100%;
+    object-fit: contain;
+  }
+  
+  
+  
+  .product-detail .right span {
+    display: inline-block;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #E71247;
+  
+  }
+  
+  .author{
+    font-family: 'Roboto', sans-serif;
+    color: #E71247;
+    font-style: italic;
+    
+    
+  }
+  
+
+  
+  
+  .product-detail .right h1 {
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+    font-family: 'Roboto', sans-serif;
+    color: #E71247;
+    font-size: 40px;
+  }
+  
+  .product-detail .right .price {
+    font-size: 600;
+    font-size: 2rem;
+    color: #ff7c9c;
+    margin-bottom: 2rem;
+  }
+  
+  .product-detail .right div {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  
+  .product-detail .right select {
+    font-family: "Poppins", sans-serif;
+    width: 20rem;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    appearance: none;
+    outline: none;
+  }
+  
+  .product-detail form {
+    margin-bottom: 2rem;
+  }
+  
+  .product-detail form span {
+    position: absolute;
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    z-index: 0;
+  }
+  
+  .product-detail .form {
+    margin-bottom: 3rem;
+  }
+  
+  .product-detail .form input {
+    padding: 0.8rem;
+    text-align: center;
+    width: 3.5rem;
+    margin-right: 2rem;
+  }
+  
+  .product-detail .form .addCart {
+    background: #ff7c9c;
+    padding: 0.8rem 4rem;
+    color: #fff;
+    border-radius: 3rem;
+  }
+  
+  .product-detail h3 {
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+  }
+  
+  @media only screen and (max-width: 996px) {
+    .product-detail .left {
+      width: 30rem;
+      height: 45rem;
+    }
+  
+    .product-detail .details {
+      gap: 3rem;
+    }
+  
+    .product-detail .thumbnails {
+      width: 30rem;
+      gap: 0.5rem;
+    }
+  
+    .product-detail .thumbnail {
+      width: auto;
+      height: 10rem;
+      background-color: #f6f2f1;
+      text-align: center;
+      padding: 0.5rem;
+    }
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .product-detail .details {
+      grid-template-columns: 1fr;
+    }
+  
+    .product-detail .right {
+      margin-top: 10rem;
+    }
+  
+    .product-detail .left {
+      width: 100%;
+      height: 45rem;
+    }
+  
+    .product-detail .details {
+      gap: 3rem;
+    }
+  
+    .product-detail .thumbnails {
+      width: 100%;
+      gap: 0.5rem;
+    }
+  }
+  
+  .ratings{
+    display: inline-block;
+    text-align: center;
+    line-height: 26px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s;
+    color: #fcba26;
+  }
+  
+
+#more {display: none;}
+
+.readMore{
+    cursor: context-menu;
+    color: blue;
 }

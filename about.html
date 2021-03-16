@@ -1,18 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Acerca de Nosotros</title>
 </head>
-<body class="body-about">
-    <header class="portada">
-        <div class="titulo">
-            <h1>¿Quiénes Somos?</h1>
+
+<body>
+    <header id="header" class="header-">
+        <!-- Navigation -->
+        <div class="navigation">
+            <div class="container">
+                <nav class="nav__center">
+                    <div class="nav__header">
+                        <div class="nav__logo">
+                            <h1>My<span>EBook</span></h1>
+                        </div>
+
+
+                    </div>
+
+                    <div class="nav__menu">
+                        <div class="menu__top">
+                            <h1 class="nav__category">My<span>EBook</span></h1>
+                            <div class="close__toggle">
+
+                            </div>
+                        </div>
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="./index.php" class="nav__link scroll-link">Inicio</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#" class="nav__link scroll-link">Accesorios</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="./about.html" class="nav__link scroll-link">Quiénes somos?</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="#newsletter" class="nav__link scroll-link">Contacto</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="./login.php" class="nav__link">Iniciar sesión</a>
+                            </li>
+
+                            <li class="nav__item">
+                                <a href="./registration.php" class="nav__link">Registro</a>
+                                
+                            </li>
+
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
+
     </header>
+
+    <div class="container-img">
+        <div class="titulo">
+            Quiénes Somos?
+        </div>
+    </div>
     <div class="cont-info">
         <div class="foto-about">
             <img src="../MyEBookWeb/img/about/fondo2.png">
@@ -26,47 +83,100 @@
 			</form>
         </div>
     </div>
-    <div class="info-team">
-        <h1>Nuesto equipo</h1>
-        <p>Nuestros integrantes son la esencia de nuestra organización. Su motivación y pasión juegan un papel decisivo para garantizar la satisfacción y el éxito de los proyectos que realizamos. Somos un grupo de tres personas pertenecientes a la carrera de Ingeniería en Sistemas Computacionales, cada integrante cuenta con varias habilidades escenciales que nos ayudan a lograr el éxito.</p>
+    <dizv class="body-about">
+        <div class="info-team">
+            <h1>Nuestro equipo</h1>
+            <p>Nuestros integrantes son la esencia de nuestra organización. Su motivación y pasión juegan un papel
+                decisivo para garantizar la satisfacción y el éxito de los proyectos que realizamos. Somos un grupo
+                de tres personas pertenecientes a la carrera de Ingeniería en Sistemas Computacionales, cada
+                integrante cuenta con varias habilidades escenciales que nos ayudan a lograr el éxito.</p>
+        </div>
+        <div class="row">
+            <div class="column1">
+                <div class="card">
+                    <img src="../MyEBookWeb/img/about/nelly.jpeg" class="imagen-perfil">
+                    <h1 class="name">Nelly Hernández</h1>
+                    <p class="title">Front-End & Back-End</p>
+                    <p class="subtitle">Hola, soy estudiante de Ingeriería en Sistemas Computacionales, durante el
+                        desarrollo del proyecto mi trabajo es crear el diseño del sitio web además de trabajar con
+                        la parte del front-end con los lenguajes de HTML, CSS Y Js así como el back-end donde usamos
+                        PHP y MySQL, mi trabajo es hacer funcionar el sitio web de una forma optica y correcta,
+                        tratar de solucionar los posibles errores a futuro y de igual forma tratamos de que el sitio
+                        web sea entendible y fácil de usar para las personas</p>
+                    <a href="#"><img src="../MyEBookWeb/img/about/facebook.png" class="iconos"></a>
+                    <a href="#"><img src="../MyEBookWeb/img/about/instagram.png" class="iconos"></a>
+                    <a href="#"><img src="../MyEBookWeb/img/about/linkedin.png" class="iconos"></a>
+                    <a href="#"><img src="../MyEBookWeb/img/about/gorjeo.png" class="iconos"></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="../MyEBookWeb/img/about/josue.jpg" class="imagen-perfil">
+                    <h1 class="name">Josue Vázquez</h1>
+                    <p class="title">Front-End & Back-End</p>
+                    <p class="subtitle">Hola, soy estudiante de Ingeriería en Sistemas Computacionales, durante el
+                        desarrollo del proyecto mi trabajo es crear el diseño del sitio web además de trabajar con
+                        la parte del front-end con los lenguajes de HTML, CSS Y Js así como el back-end donde usamos
+                        PHP y MySQL, mi trabajo es hacer funcionar el sitio web de una forma optica y correcta,
+                        tratar de solucionar los posibles errores a futuro y de igual forma tratamos de que el sitio
+                        web sea entendible y fácil de usar para las personas.</p>
+                    <a href="https://www.facebook.com/JOSUEROJAS15071999"><img
+                            src="../MyEBookWeb/img/about/facebook.png" class="iconos"></a>
+                    <a href="#"><img src="../MyEBookWeb/img/about/instagram.png" class="iconos"></a>
+                    <a href="#"><img src="../MyEBookWeb/img/about/linkedin.png" class="iconos"></a>
+                    <a href="https://twitter.com/JosueVRojas1"><img src="../MyEBookWeb/img/about/gorjeo.png"
+                            class="iconos"></a>
+                </div>
+            </div>
+            <div class="column">
+                <div class="card">
+                    <img src="../MyEBookWeb/img/about/jose.jpeg" class="imagen-perfil">
+                    <h1 class="name">José Llanes</h1>
+                    <p class="title">Documentador</p>
+                    <p class="subtitle">Hola soy José Llanes y pertenezco a la carrera de ingeniería en sistemas
+                        computacionales, mi trabajo en este proyecto es el de documentar todo lo que está pasando en
+                        la realización de esta pagina web, es decir, analizar y crear formatos que sirva para llevar
+                        un seguimiento, en donde nos ayude a verificar los requerimientos o requisitos que surjan en
+                        este trabajo, al igual los errores y así con la ayuda de mis compañeros podamos ofrecer un
+                        buena página web.</p>
+                    <a href="https://www.facebook.com/jose.dominguezllanes/"><img
+                            src="../MyEBookWeb/img/about/facebook.png" class="iconos"></a>
+                    <a href="#"><img src="../MyEBookWeb/img/about/instagram.png" class="iconos"></a>
+                    <a href="#"><img src="../MyEBookWeb/img/about/linkedin.png" class="iconos"></a>
+                    <a href="https://twitter.com/jose0126"><img src="../MyEBookWeb/img/about/gorjeo.png"
+                            class="iconos"></a>
+                </div>
+            </div>
+        </div>
     </div>
-    <div class="row">
-        <div class="column1">
-            <div class="card">
-                <img src="../MyEBookWeb/img/about/nelly.jpeg" class="imagen-perfil" >
-                <h1 class="name">Nelly Hernández</h1>
-                <p class="title">Front-End & Back-End</p>
-                <p class="subtitle">Hola, soy estudiante de Ingeriería en Sistemas Computacionales, durante el desarrollo del proyecto mi trabajo es crear el diseño del sitio web además de trabajar con la parte del front-end con los lenguajes de HTML, CSS Y Js así como el back-end donde usamos PHP y MySQL, mi trabajo es hacer funcionar el sitio web de una forma optica y correcta, tratar de solucionar los posibles errores a futuro y de igual forma tratamos de que el sitio web sea entendible y fácil de usar para las personas</p>
-                <a href="#"><img src="../MyEBookWeb/img/about/facebook.png" class="iconos"></a>
-                <a href="#"><img src="../MyEBookWeb/img/about/instagram.png" class="iconos"></a>
-                <a href="#"><img src="../MyEBookWeb/img/about/linkedin.png" class="iconos"></a>
-                <a href="#"><img src="../MyEBookWeb/img/about/gorjeo.png" class="iconos"></a>
+    <footer id="footer" class="section footer">
+        <div class="container">
+            <div class="footer__top">
+                <div class="footer-top__box">
+                    <h3>MyEBook</h3>
+                    <a href="about.html">Acerca de nosotros</a> <br>
+
+
+                </div>
+                <div class="footer-top__box">
+                    <h3>Terminos y Condiociones</h3>
+                    <a href="#">Privacidad</a>
+
+                </div>
+                <div class="footer-top__box">
+                    <h3>Mi cuenta</h3>
+                    <a href="#">Mi canasta</a>
+
+                </div>
+
+                &copy; Copyright 2020 MyEbook
+
+
             </div>
         </div>
-        <div class="column">
-            <div class="card">
-                <img src="../MyEBookWeb/img/about/josue.jpg" class="imagen-perfil">
-                <h1 class="name">Josue Vázquez</h1>
-                <p class="title">Front-End & Back-End</p>
-                <p class="subtitle">Hola, soy estudiante de Ingeriería en Sistemas Computacionales, durante el desarrollo del proyecto mi trabajo es crear el diseño del sitio web además de trabajar con la parte del front-end con los lenguajes de HTML, CSS Y Js así como el back-end donde usamos PHP y MySQL, mi trabajo es hacer funcionar el sitio web de una forma optica y correcta, tratar de solucionar los posibles errores a futuro y de igual forma tratamos de que el sitio web sea entendible y fácil de usar para las personas.</p>
-                <a href="https://www.facebook.com/JOSUEROJAS15071999"><img src="../MyEBookWeb/img/about/facebook.png" class="iconos"></a>
-                <a href="#"><img src="../MyEBookWeb/img/about/instagram.png" class="iconos"></a>
-                <a href="#"><img src="../MyEBookWeb/img/about/linkedin.png" class="iconos"></a>
-                <a href="https://twitter.com/JosueVRojas1"><img src="../MyEBookWeb/img/about/gorjeo.png" class="iconos"></a>
-            </div>
-        </div>
-        <div class="column">
-            <div class="card">
-                <img src="../MyEBookWeb/img/about/jose.jpeg" class="imagen-perfil">
-                <h1 class="name">José Llanes</h1>
-                <p class="title">Documentador</p>
-                <p class="subtitle">Hola soy José Llanes y pertenezco a la carrera de ingeniería en sistemas computacionales, mi trabajo en este proyecto es el de documentar todo lo que está pasando en la realización de esta pagina web, es decir, analizar y crear formatos que sirva para llevar un seguimiento, en donde nos ayude a verificar los requerimientos o requisitos que surjan en este trabajo, al igual los errores y así con la ayuda de mis compañeros podamos ofrecer un buena página web.</p>
-                <a href="https://www.facebook.com/jose.dominguezllanes/"><img src="../MyEBookWeb/img/about/facebook.png" class="iconos"></a>
-                <a href="#"><img src="../MyEBookWeb/img/about/instagram.png" class="iconos"></a>
-                <a href="#"><img src="../MyEBookWeb/img/about/linkedin.png" class="iconos"></a>
-                <a href="https://twitter.com/jose0126"><img src="../MyEBookWeb/img/about/gorjeo.png" class="iconos"></a>
-            </div>
-        </div>
-    </div>
+
+    </footer>
+    
 </body>
+
 </html>

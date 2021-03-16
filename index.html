@@ -1,18 +1,30 @@
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="css/styles.css"/>
+    <script src="https://kit.fontawesome.com/1c2c2462bf.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>MyEBook</title>
+</head>
 
 <body>
 
-    <!--Header-->
+
     <header id="header" class="header">
         <!-- Navigation -->
         <div class="navigation">
@@ -35,7 +47,7 @@
                         </div>
                         <ul class="nav__list">
                             <li class="nav__item">
-                                <a href="#header" class="nav__link scroll-link">Inicio</a>
+                                <a href="./index.php" class="nav__link scroll-link">Inicio</a>
                             </li>
 
                             <li class="nav__item">
@@ -43,7 +55,7 @@
                             </li>
 
                             <li class="nav__item">
-                                <a href="./about.html" class="nav__link scroll-link">¿Quiénes somos?</a>
+                                <a href="./about.html" class="nav__link scroll-link">Quiénes somos?</a>
                             </li>
 
                             <li class="nav__item">
@@ -51,34 +63,101 @@
                             </li>
 
                             <li class="nav__item">
-                                <a href="./login.html" class="nav__link">Iniciar sesión</a>
+                                <a href="login.php" class="nav__link">Iniciar sesión</a>
                             </li>
 
                             <li class="nav__item">
-                                <a href="./registration.html" class="nav__link">Registro</a>
+                                <a href="registration.php" class="nav__link">Registro</a>
                             </li>
 
                         </ul>
                     </div>
                 </nav>
             </div>
+        </div>
+
+        <!-- Hero -->
+        <div class="hero">
+            <div class="hero__content container">
+                <h1>
+                    <span>My<span class="color">EBook</span>
+                    </span>
+
+                </h1>
+                <h5>Lee tus historias favoritas cuando y donde quieras</h5>
+                <a href="#" class="btn btn-hero">Descubre</a>
+            </div>
+        </div>
+        <div class="container-categories">
+            <div class="row-categories">
+                <div class="colum-categories1">
+                    <a href="./recomendados.php" target="cuerpo">
+                        <div class="card-categories">
+                            <img src="img/index/libro.png" class="img" alt="" width="100px">
+                            <p>Recomendados</p>
+                        </div>
+                    </a>
+                </div>
 
 
+                <div class="colum-categories">
+                    <a href="./vendidos.php" target="cuerpo">
+                        <div class="card-categories">
+                            <img src="img/index/ventas.png" class="img" alt="ventas" width="89px">
+                            <p>Lo más vendido</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="colum-categories">
+                    <a href="./nuevo.php" target="cuerpo">
+                        <div class="card-categories">
+                            <img src="img/index/new.png" class="img" alt="nuevo" width="113px">
+                            <p>Lo más nuevo</p>
+                        </div>
+                    </a>
 
-            <!--Letras MyEBook-->
-            <div class="hero">
-                <div class="hero__content container">
-                    <h1>
-                        <span>My<span class="color">EBook</span>
-                        </span>
-
-                    </h1>
-                    <h5>Lee tus historias favoritas cuando y donde quieras</h5>
-                    <a href="#" class="btn btn-hero">Descubre</a>
+                </div>
+                <div class="colum-categories">
+                    <a href="promociones.php" target="cuerpo">
+                        <div class="card-categories">
+                            <img src="img/index/promociones.png" class="img" alt="" width="117px">
+                            <p>Promociones</p>
+                        </div>
+                    </a>
                 </div>
             </div>
-    </header>
 
+        </div>
+
+    </header>
+    <main>
+        <div class="iframe">
+            <iframe height="1880" src="./recomendados.php" frameborder="0" name="cuerpo"></iframe>
+        </div>
+    </main>
+
+
+    <section class="newsletter">
+
+        <div class="newsletter_container">
+
+            <div class="img-book">
+                <img src="img/index/image.png" alt="" srcset="" width="300px">
+            </div>
+            <div class="newsletter_subscribe">
+                <h2 class="section-title">Contáctanos</h2>
+                <p class="newsletter"> Te enterarás de nuestros nuevos libros</p>
+
+                <form action="" class="newsletter-form">
+                    <input type="email" name="email" id="" placeholder="Correo eléctronico">
+                    <button type="submit" class="btn-send"></button>
+
+                </form>
+
+            </div>
+
+        </div>
+    </section>
 
 
     <!-- Footer -->
@@ -87,30 +166,29 @@
             <div class="footer__top">
                 <div class="footer-top__box">
                     <h3>MyEBook</h3>
-                    <a href="#"></a>
+                    <a href="about.html">Acerca de nosotros</a> <br>
+
 
                 </div>
                 <div class="footer-top__box">
-                    <h3>politicas</h3>
-                    <a href="#"></a>
+                    <h3>Terminos y Condiociones</h3>
+                    <a href="#">Privacidad</a>
 
                 </div>
                 <div class="footer-top__box">
                     <h3>Mi cuenta</h3>
-                    <a href="#"></a>
+                    <a href="#">Mi canasta</a>
 
                 </div>
-                <div class="footer-top__box">
-                    <h3>CONTACT US</h3>
 
-                </div>
+                &copy; Copyright 2020 MyEbook
+
+
             </div>
         </div>
-        </div>
+
     </footer>
     <!-- Fin del footer -->
-
-
 
 
 
